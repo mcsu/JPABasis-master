@@ -7,6 +7,9 @@
     
     <class>com.univ.Person</class>
     <class>com.univ.Rent</class>
+    <class>com.univ.Vehicule</class>
+    <class>com.univ.Car</class>
+    <class>com.univ.Van</class>
     
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     
