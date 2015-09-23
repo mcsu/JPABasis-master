@@ -6,6 +6,7 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     
     <class>com.univ.Person</class>
+    <class>com.univ.Rent</class>
     
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     
