@@ -10,5 +10,4 @@ HSQLDB Data base setup :
 - using a tool to inspect the data base:
   - use a command line (into the lib directory of HSQLDB) : java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
   - in the connection window choose as the type: HSQL Database Engine Server
-- ask Gradle to solve dependencies: gradle build
-- run the main class : App
+
