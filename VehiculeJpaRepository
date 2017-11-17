@@ -1,0 +1,17 @@
+package com.efrei.webservice.domain;
+
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+
+//仓库接口类
+
+
+public interface VehiculeJpaRepository extends JpaRepository<Vehicule, Integer>{
+
+	@Query("select * from Vehicule") 
+	public List<Vehicule> findAll();
+}
